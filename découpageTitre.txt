@@ -1,0 +1,26 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.sql.Date;
+import java.util.StringTokenizer;
+
+
+public class Titre {
+
+	public Titre(){
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		String c= "Equipment location in hospitals using RFID-based positioning system.";
+		String s = "Mobile robot trajectory tracking using noisy RSS measurements: An RFID approach.";
+		StringTokenizer st = new StringTokenizer(s);
+		System.out.println("Nombre de mots:" + st.countTokens());
+		while (st.hasMoreTokens())
+			System.out.println(st.nextToken());
+
+	}
+
+}
