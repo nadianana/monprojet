@@ -1,0 +1,6 @@
+import java.util.date
+public classe personne {
+ public int i=0;
+  personne(){
+  }
+  }
